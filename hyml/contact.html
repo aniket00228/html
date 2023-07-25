@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <form method="post" action="aaaaa.js" enctype="multipart/form-data">  <!--enctype = converter a ft e enviar-->
+        <fieldset>
+            <label for="teste">
+                <h1 class="signUpTitle">REGISTER NOW</h1>
+            </label><br/>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="name">
+                Name<br/>
+                <input type="text" name="name" autofocus required>
+            </label><br/>
+            <label for="lastname">
+                 Current City<br/>
+                <input type="text" name="city" required>
+            </label><br/>
+            <label for="email">
+                E-mail<br/>
+                <input type="email" name="email" required>
+            </label><br/>
+            <label for="date">
+                D.O.B.<br/>
+                <input type="date" name="date" required>
+            </label><br/>
+            <label for="photo">
+                Resume<br/>
+                <input type="file" name="photo" accept="image/*" required>
+            </label><br/>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="phone">
+                Phone Number<br/>
+                <input type="phone_number" name="phone" required>
+            </label><br/>
+            <label for="Address">
+                Address<br/>
+                <input type="text" name="Address" required>
+            </label><br/>
+        </fieldset>
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
